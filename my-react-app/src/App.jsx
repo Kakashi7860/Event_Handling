@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Hello from "./Hello"
+import Render from "./Render"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <h2>{name}</h2>
 
       <Hello/>
+      <Render/>
 
     </>
   )
