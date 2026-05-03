@@ -1,12 +1,18 @@
+import { useState } from "react"
 
 
 function App() {
+
+  const[text,setText] = useState("Hello")
+
   function handleClick(){
-    alert("Button Clicked")
+    setText("Button Clicked")
   }
 
   return (
     <>
+    <h1>{text} </h1>
+
       <button onClick={handleClick}>Click Me</button>
     </>
   )
