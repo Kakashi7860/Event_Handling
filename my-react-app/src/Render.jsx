@@ -8,14 +8,8 @@ function Render() {
     <h1 key={index}>{name}</h1>
   ))}
   
-  
+
   </>
-
-
-      
-      
-
-  
   )
 }
 export default Render
